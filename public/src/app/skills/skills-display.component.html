@@ -1,0 +1,25 @@
+<!--
+* File:        skills-display.component.html
+* Author:      Brennan Saul
+* Description: HTML for skills-display.component.ts
+* Edit history:
+*
+* Editor   Date		  Description
+* ======   ========	===========
+* Saul     6/23/17   File Created
+-->
+
+<!-- Gets every image in the skills folder displays icons in fows of five -->
+<div class="container">
+  <h1>Has Expirence With:</h1>
+  <div *ngFor="let s of skills; let i = index">
+    <div *ngIf="i % 5 == 0" class="row">
+      <img class="skill_img" src="assets/skills/{{s}}">
+      <img *ngIf="i + 1 < skills.length" class="skill_img" src="assets/skills/{{skills[i + 1]}}">
+      <img *ngIf="i + 2 < skills.length" class="skill_img" src="assets/skills/{{skills[i + 2]}}">
+      <img *ngIf="i + 3 < skills.length" class="skill_img" src="assets/skills/{{skills[i + 3]}}">
+      <img *ngIf="i + 4 < skills.length" class="skill_img" src="assets/skills/{{skills[i + 4]}}">
+    </div>
+  </div>
+
+</div>
