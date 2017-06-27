@@ -1,0 +1,30 @@
+/*
+ * File:        welcome.component.css
+ * Author:      Brennan Saul
+ * Description: Component for styling the .html file
+ *
+ * Edit history:
+ *
+ * Editor   Date		  Description
+ * ======   ========	===========
+ * Saul     6/23/17   File Created
+ * Saul     6/26/17   .welcome css modified
+ */
+.welcome {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.profile_img {
+  border-radius: 150px 150px 150px 150px;
+  width: 300px;
+  height: 300px;
+}
+
+.message {
+  background: rgba(0,0,128,.5);
+  border-radius: 10px 10px 10px 10px;
+  padding: 5px;
+  color: white;
+  text-align: center;
+}

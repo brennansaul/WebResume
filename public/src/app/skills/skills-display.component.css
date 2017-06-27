@@ -1,0 +1,28 @@
+/*
+ * File:        skills-display.component.css
+ * Author:      Brennan Saul
+ * Description: Component for styling the .html file
+ *
+ * Edit history:
+ *
+ * Editor   Date		  Description
+ * ======   ========	===========
+ * Saul     6/23/17   File Created
+ * Saul     6/27/17   .container css modified
+ */
+
+ .container {
+   text-align: center;
+   width: 100%;
+   height: 100vh;
+   margin-left: auto;
+   margin-right: auto;
+   background: rgba(255,255,255,.5);
+ }
+
+ .skill_img {
+   width: 10%;
+   height: 10%;
+   padding-left: 10px;
+   padding-right: 10px;
+ }
