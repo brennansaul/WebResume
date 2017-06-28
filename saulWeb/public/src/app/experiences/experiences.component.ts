@@ -54,12 +54,12 @@ export class ExperiencesComponent {
 
     {  name: "Baylor University", title: "Student",
        startDate: "8/11/14", endDate: "12/16/17", location: "Waco, Texas",
-       description: "Major: BSCS Minor: ENT", image: "baylor.png" },
+       description: "Major: Computer Science | Minor: Entrepreurship", image: "baylor.png" },
 
      {  name: "Whitefield Academy", title: "Student",
         startDate: "-", endDate: "5/14/13", location: "Atlanta, Georgia",
-        description: "As a student at Whitefield Academy I was very involved. "+
-        "I participated in: Varsity football, varisty lacrosse, drama, " +
-        "Boy Scouts (Eagle Scout), National Honor Society, and more", image: "wa.png" }
+        description: "As a student at Whitefield Academy I was involved "+
+        "in: Varsity football, varisty lacrosse, drama, " +
+        "Boy Scouts (Eagle Scout), National Honor Society, and more!", image: "wa.png" }
   ]
 }
