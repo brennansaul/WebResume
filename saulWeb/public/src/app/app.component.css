@@ -10,8 +10,11 @@
  * Saul     6/23/17   File Created
  * Saul     6/26/17   .page css modified
  */
-.page {
+@import url('https://fonts.googleapis.com/css?family=Bangers');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
+.page {
+  font-family: 'Ubuntu';
   position: relative;
   background-image: url("../assets/images/background.png");
   background-repeat:no-repeat;
