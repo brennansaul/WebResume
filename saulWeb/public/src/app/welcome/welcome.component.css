@@ -11,11 +11,6 @@
  * Saul     6/26/17   .welcome css modified
  */
 
- @font-face {
-   font-family: 'Ubuntu';
-   src: url('/assets/fonts/ubuntu-font-family-0.83/Ubuntu-R.ttf');
- }
- 
 .welcome {
   padding-top: 100px;
   text-align: center;
