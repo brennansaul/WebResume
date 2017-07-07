@@ -1,0 +1,15 @@
+/*
+* Styles for HeaderComponent
+*/
+
+.navbar {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.nav_img {
+  margin-top: 5px;
+  margin-bottom: auto;
+  height: 40px;
+  width: auto;
+}

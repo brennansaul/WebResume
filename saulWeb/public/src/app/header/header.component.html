@@ -1,0 +1,46 @@
+<!--
+* File:        header.component.html
+* Author:      Brennan Saul
+* Description: HTML for header.component.ts
+* Edit history:
+*
+* Editor   Date		  Description
+* ======   ========	===========
+* Saul     7/7/17   File Created
+-->
+
+<!-- Nav Bar -->
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">James Brennan Saul - Bachelor of Science in Computer Science</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li routerLinkActive="active"
+        [routerLinkActiveOptions]="{exact: true}"><a routerLink="/">Home</a></li>
+        <li routerLinkActive="active"
+        [routerLinkActiveOptions]="{exact: true}"><a routerLink="/skills">Skills</a></li>
+        <li routerLinkActive="active"
+        [routerLinkActiveOptions]="{exact: true}"><a routerLink="/experiences">Experiences</a></li>
+        <li routerLinkActive="active"
+        [routerLinkActiveOptions]="{exact: true}"><a routerLink="/projects">Projects</a></li>
+        <li routerLinkActive="active"
+        [routerLinkActiveOptions]="{exact: true}"><a routerLink="/interests">Interests</a></li>
+      </ul>
+
+      <a class="nav navbar-nav navbar-right" href="https://www.linkedin.com/in/brennansaul/">
+        <img class="nav_img" src="assets/images/linkedin-1.png"/>
+      </a>
+
+    </div>
+  </div><!-- /.container-fluid -->
+</nav>

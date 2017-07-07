@@ -1,52 +1,8 @@
 <!-- Contains everyting inside the outer most white rectangle -->
 <div class="page">
 
-  <!-- Nav Bar -->
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">James Brennan Saul - Bachelor of Science in Computer Science</a>
-      </div>
+  <header></header>
 
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li class="active"><a (click)="tab = 0" href="#">Home<span class="sr-only">(current)</span></a></li>
-          <li><a (click)="tab = 1" href="#">Skills</a></li>
-          <li><a (click)="tab = 2" href="#">Experiences</a></li>
-          <li><a (click)="tab = 3" href="#">Projects</a></li>
-          <li><a (click)="tab = 4" href="#">Interests</a></li>
-        </ul>
-
-        <a class="nav navbar-nav navbar-right" href="https://www.linkedin.com/in/brennansaul/">
-          <img class="nav_img" src="assets/images/linkedin-1.png"/>
-        </a>
-
-      </div>
-    </div><!-- /.container-fluid -->
-  </nav>
-
-  <div *ngIf="tab==0">
-    <welcome>Welcome loading</welcome>
-  </div>
-
-  <!-- skills Component -->
-  <div *ngIf="tab==1">
-    <skills>Loading skills</skills>
-  </div>
-
-  <div *ngIf="tab==2">
-    <experiences>Loading</experiences>
-  </div>
-
-  <div *ngIf="tab==3">
-    Projects
-  </div>
+  <router-outlet></router-outlet>
 
 </div>
