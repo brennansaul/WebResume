@@ -15,7 +15,23 @@ export class ExperiencesComponent {
 
     { name: "Student", title: "Social Entrepreurship in Africa",
       startDate: "5/13/17", endDate: "5/30/17", location: "Kigail, Rwanda",
-      description: "...", image: "SEA.png" },
+      description: "The “Social Entrepreneurship in Africa” study abroad program "+
+      "is a two-week program where students learn about various topics including: "+
+      "microfinance, Rwandan history, and the positive effects of developmental "+
+      "entrepreneurship. Activities that the SEA program includes are: visiting "+
+      "the production location of various Rwandan businesses, meeting with " +
+      "microfinance and social development organizations, and observing how these "+
+      "organizations and their community groups operate. Additionally, the program "+
+      "includes many service driven activities and historical site visits. One " +
+      "example of a service activity is coaching a group of high school students " +
+      "in a business plan competition. Each Baylor mentor would help their group " +
+      "fully develop their business plan and then would help them create their " +
+      "final presentation. Each group then presented and were judged on a rubric "+
+      "by the Baylor students. At the end of the process an award ceremony was "+
+      "held honoring the winning teams and acknowledging all groups that "+
+      "participated. The SEA program was an incredible experience where I learned "+
+      "about business, social issues, solutions to those issues, and about the " +
+      "history and culture of a different part of the world. ", image: "SEA.png" },
 
     { name: "Crickets Draft House + Grill", title: "Bartender",
       startDate: "6/15/16", endDate: "9/16/16", location: "Waco, Texas",
