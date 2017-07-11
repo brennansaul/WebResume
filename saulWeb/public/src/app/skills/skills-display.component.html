@@ -11,6 +11,7 @@
 
 <!-- Gets every image in the skills folder displays icons in fows of five -->
 <div class="container">
+  <!--
   <h1>Experienced in</h1>
   <div *ngFor="let s of skills; let i = index">
     <div *ngIf="i % 5 == 0" class="row">
@@ -21,8 +22,42 @@
       <img *ngIf="i + 4 < skills.length" class="skill_img" src="assets/skills/{{skills[i + 4]}}">
     </div>
   </div>
+  -->
 
-  <h1>Stack Exchange Accounts</h1>
+  <h1><b>Operating Systems</b></h1>
+  <div *ngFor="let s of osSkills; let i = index">
+    <div *ngIf="i % 5 == 0" class="row">
+      <img class="skill_img" src="assets/skills/{{s}}">
+      <img *ngIf="i + 1 < osSkills.length" class="skill_img" src="assets/skills/{{osSkills[i + 1]}}">
+      <img *ngIf="i + 2 < osSkills.length" class="skill_img" src="assets/skills/{{osSkills[i + 2]}}">
+      <img *ngIf="i + 3 < osSkills.length" class="skill_img" src="assets/skills/{{osSkills[i + 3]}}">
+      <img *ngIf="i + 4 < osSkills.length" class="skill_img" src="assets/skills/{{osSkills[i + 4]}}">
+    </div>
+  </div>
+
+  <h1><b>Languages</b></h1>
+  <div *ngFor="let s of languages; let i = index">
+    <div *ngIf="i % 5 == 0" class="row">
+      <img class="skill_img" src="assets/skills/{{s}}">
+      <img *ngIf="i + 1 < languages.length" class="skill_img" src="assets/skills/{{languages[i + 1]}}">
+      <img *ngIf="i + 2 < languages.length" class="skill_img" src="assets/skills/{{languages[i + 2]}}">
+      <img *ngIf="i + 3 < languages.length" class="skill_img" src="assets/skills/{{languages[i + 3]}}">
+      <img *ngIf="i + 4 < languages.length" class="skill_img" src="assets/skills/{{languages[i + 4]}}">
+    </div>
+  </div>
+
+  <h1><b>Tools</b></h1>
+  <div *ngFor="let s of tools; let i = index">
+    <div *ngIf="i % 5 == 0" class="row">
+      <img class="skill_img" src="assets/skills/{{s}}">
+      <img *ngIf="i + 1 < tools.length" class="skill_img" src="assets/skills/{{tools[i + 1]}}">
+      <img *ngIf="i + 2 < tools.length" class="skill_img" src="assets/skills/{{tools[i + 2]}}">
+      <img *ngIf="i + 3 < tools.length" class="skill_img" src="assets/skills/{{tools[i + 3]}}">
+      <img *ngIf="i + 4 < tools.length" class="skill_img" src="assets/skills/{{tools[i + 4]}}">
+    </div>
+  </div>
+
+  <h1><b>Stack Exchange Accounts</b></h1>
   <div class=row>
     <a href="https://stackoverflow.com/users/8168719/ob1">
       <img src="https://stackoverflow.com/users/flair/8168719.png" width="208" height="58" alt="profile for ob1 at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for ob1 at Stack Overflow, Q&amp;A for professional and enthusiast programmers">

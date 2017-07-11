@@ -19,6 +19,41 @@
  })
  export class SkillsComponent {
    // List of Images in the assest/skills folder
+
+   // Operating systems
+   osSkills:string[] = [
+     "mac.png",
+     "linux.png",
+     "ubuntu.png",
+     "debian.png",
+     "windows.png",
+   ]
+
+   languages:string[] = [
+     "angular.png",
+     "bash.png",
+     "C.png",
+     "Cs.png",
+     "Cpp.png",
+     "HTML.png",
+     "Java.png",
+     "mysql.png"
+   ]
+
+   tools:string[] = [
+     "agile.png",
+     "docker.png",
+     "flume.png",
+     "git.png",
+     "hadoop.png",
+     "zeppelin.png",
+     "github.png",
+     "putty.png",
+     "filezilla.png",
+     "cron.png",
+     "aws.png"
+   ]
+
    skills:string[] = [
      "agile.png",
      "angular.png",
@@ -38,5 +73,9 @@
      "windows.png",
      "zeppelin.png",
      "debian.png",
-     "github.png" ];
+     "github.png",
+     "putty.png",
+     "filezilla.png",
+     "cron.png",
+     "aws.png" ];
  }

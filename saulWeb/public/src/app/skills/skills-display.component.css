@@ -14,17 +14,21 @@
  .container {
    text-align: center;
    width: 100%;
-   max-height: 95vh;
+   max-height: 94vh;
    overflow: auto;
    margin-left: auto;
    margin-right: auto;
-   background: rgba(255,255,255,.5);
+   background: rgba(255,255,255,.75);
    font-family: 'Ubuntu';
  }
 
+ h1{
+   font-size: 75px;
+ }
+
  .skill_img {
-   width: 13%;
-   height: 13%;
+   width: 10%;
+   height: 10%;
    padding-left: 10px;
    padding-right: 10px;
  }
