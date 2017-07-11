@@ -36,5 +36,7 @@
      "mysql.png",
      "ubuntu.png",
      "windows.png",
-     "zeppelin.png" ];
+     "zeppelin.png",
+     "debian.png",
+     "github.png" ];
  }
