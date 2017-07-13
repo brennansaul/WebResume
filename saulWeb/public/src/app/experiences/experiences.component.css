@@ -37,6 +37,7 @@ ul.exp_list {
 
 p {
   margin: 0;
+  font-size: 1em;
 }
 
 .experience {
@@ -60,6 +61,9 @@ p {
   font-size: 12px;
   line-height: 1.428571429;
   border-radius: 15px;
+  border-width: 2px;
+  color: navy;
+  border-color: navy;
 }
 
 .btn-primary {
@@ -68,9 +72,9 @@ p {
     border-radius: 25px;
     border-color: #357ebd; /*set the color you want here*/
 }
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+.btn-default:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
     color: #fff;
-    background-color: #00b3db;
+    background-color: rgba(200,200,200,1);
     border-radius: 25px;
     border-color: #285e8e; /*set the color you want here*/
 }
