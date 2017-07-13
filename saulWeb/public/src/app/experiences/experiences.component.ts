@@ -1,18 +1,53 @@
 
 import { Component } from '@angular/core';
+import { trigger, state, style, transition, animate} from '@angular/animations'
 
 import { Experience } from '../shared/models/experience'
 
 @Component({
   selector: 'experiences',
   templateUrl: './experiences.component.html',
+  animations: [
+    trigger('showState', [
+      state('down', style({
+        'display':'none',
+        'color': 'white',
+        transform: 'scale(.5)'
+      })),
+      state('up', style({
+        'display':'all',
+        'color': 'black',
+        transform: 'scale(1)'
+      })),
+      transition('down <=> up', animate(300)),
+    ]),
+
+    trigger('GrowState', [
+      state('down', style({
+        'height': '150',
+        transform: 'scale(1)'
+      })),
+      state('up', style({
+        'height': '100%',
+        transform: 'scale(1)'
+      })),
+      transition('down <=> up', animate(500)),
+
+    ]),
+  ],
   styleUrls: ['./experiences.component.css']
 })
 export class ExperiencesComponent {
+  // Initial value for the animation state
+
+  onAnimate(exp: Experience){
+    exp.state == 'down' ? exp.state = 'up' : exp.state = 'down';
+  }
+
   exps:Experience[] = [
     { name: "Flair Data Systems", title: "Product Development Intern",
       startDate: "6/5/17", endDate: "8/-/17", location: "Plano, Texas",
-      description: "...", image: "flair.png" },
+      description: "...", image: "flair.png", state: "down" },
 
     { name: "Student", title: "Social Entrepreurship in Africa",
       startDate: "5/13/17", endDate: "5/30/17", location: "Kigail, Rwanda",
@@ -32,7 +67,7 @@ export class ExperiencesComponent {
       "held honoring the winning teams and acknowledging all groups that "+
       "participated. The SEA program was an incredible experience where I learned "+
       "about business, social issues, solutions to those issues, and about the " +
-      "history and culture of a different part of the world. ", image: "SEA.png" },
+      "history and culture of a different part of the world. ", image: "SEA.png", state: "down" },
 
     { name: "Crickets Draft House + Grill", title: "Bartender",
       startDate: "6/15/16", endDate: "9/16/16", location: "Waco, Texas",
@@ -41,7 +76,7 @@ export class ExperiencesComponent {
       "apply directly to the food industry and to any occupation that requires " +
       "working with a team. These skills include: customer service, communication, "
       + "multitasking, table waiting, and bartending.",
-      image: "crickets.jpeg" },
+      image: "crickets.jpeg", state: "down" },
 
     { name: "I5: Rockbridge Senior Living Communities", title: "Consulting Intern",
       startDate: "6/5/15", endDate: "8/8/15", location: "Ningbo, China",
@@ -58,7 +93,7 @@ export class ExperiencesComponent {
       "Led team presentation of Rockbridge’s service of hiring, training, and " +
       "maintaining a world class senior care staff that was presented to the " +
       "Rockbridge’s CEO and other venture capitalists.",
-      image: "i5.jpg" },
+      image: "i5.jpg", state: "down" },
 
     { name: "Camp Ozark", title: "Counselor / Campus Representative",
       startDate: "5/14/14", endDate: "8/8/14", location: "Mt. Ida, Arkansas / Waco, Texas",
@@ -67,16 +102,16 @@ export class ExperiencesComponent {
       "campers in gun safety, and leading devotionals. After summer employment " +
       "I was selected to be the campus representative where I assisted with the " +
       "recruitment of Counselors for summer 2015.",
-      image: "campOzark.png" },
+      image: "campOzark.png", state: "down" },
 
     {  name: "Baylor University", title: "Student",
        startDate: "8/11/14", endDate: "12/16/17", location: "Waco, Texas",
-       description: "Major: Computer Science | Minor: Entrepreurship", image: "baylor.png" },
+       description: "Major: Computer Science | Minor: Entrepreurship", image: "baylor.png", state: "down" },
 
      {  name: "Whitefield Academy", title: "Student",
         startDate: "-", endDate: "5/14/13", location: "Atlanta, Georgia",
         description: "As a student at Whitefield Academy I was involved "+
         "in: Varsity football, varisty lacrosse, drama, " +
-        "Boy Scouts (Eagle Scout), National Honor Society, and more!", image: "wa.png" }
+        "Boy Scouts (Eagle Scout), National Honor Society, and more!", image: "wa.png", state: "down" }
   ]
 }

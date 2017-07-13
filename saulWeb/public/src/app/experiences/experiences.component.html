@@ -1,7 +1,7 @@
 <!--
 * File:        experiences.component.html
 * Author:      Brennan Saul
-* Description: HTML for experiencescomponent.ts
+* Description: HTML for experiences.component.ts
 * Edit history:
 *
 * Editor    Date		    Description
@@ -9,6 +9,7 @@
 * Saul      6/23/17     File Created
 * Saul      6/27/17     list added
 * Saul      6/27/17     Added the structure for experiences
+* Saul      7/11/17     Animations
 -->
 
 <div class="container">
@@ -16,7 +17,7 @@
     <ul class="exp_list" *ngFor="let exp of exps">
       <li>
         <div class="experience">
-          <div class="row" style="margin-top: 7px">
+          <div class="row" style="margin-top: 7px; margin-bottom: 7px">
             <div class="col-md-2"><img class="exp_img" src="assets/images/experiences/{{exp.image}}"></div>
             <div class="col-md-4">
               <p><b>{{exp.title}}</b></p>
@@ -25,8 +26,11 @@
               <p>{{exp.location}}<p>
             </div>
             <div class="col-md-6"></div>
+            <div style="text-align: right; margin-right: 5%">
+              <button type="button" class="btn btn-primary btn-circle btn" (click)="onAnimate(exp)"><i class="glyphicon glyphicon-collapse-{{exp.state}}"></i></button>
+            </div>
           </div>
-          <div class="row" style="margin-bottom: 7px;">
+          <div [@showState]="exp.state" class="row" style="margin-bottom: 7px;">
             <div class="col-md-1"></div>
             <div class="col-md-10">{{exp.description}}</div>
             <div class="col-md-1"></div>

@@ -10,6 +10,8 @@
 * Editor			Date				Description
 * ======			========		===========
 * Saul			  06/27/17		File created
+* Saul        07/13/17    Added property state used to tell if description will
+*                         be hidden.
 */
 
 export class Experience {
@@ -20,4 +22,16 @@ export class Experience {
     public location: String;
     public description: String;
     public image: String;
+    public state: String;
+
+    constructor() {
+      this.name = "";
+      this.title = "";
+      this.startDate = "";
+      this.endDate = "";
+      this.location = "";
+      this.description = "";
+      this.image = "";
+      this.state = "down";
+    }
 }
