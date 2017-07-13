@@ -12,27 +12,25 @@ import { Experience } from '../shared/models/experience'
       state('down', style({
         'display':'none',
         'color': 'white',
-        transform: 'scale(.5)'
+        opacity: 0
       })),
       state('up', style({
         'display':'all',
         'color': 'black',
-        transform: 'scale(1)'
+        opacity: 1
       })),
-      transition('down <=> up', animate(300)),
-    ]),
-
-    trigger('GrowState', [
-      state('down', style({
-        'height': '150',
-        transform: 'scale(1)'
-      })),
-      state('up', style({
-        'height': '100%',
-        transform: 'scale(1)'
-      })),
-      transition('down <=> up', animate(500)),
-
+      transition('down => up', [
+        style({
+          opacity: 0,
+        }),
+        animate(300)
+      ]),
+      transition('up => down', [
+        style({
+          opacity: 1,
+        }),
+        animate(300)
+      ])
     ]),
   ],
   styleUrls: ['./experiences.component.css']
