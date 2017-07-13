@@ -37,7 +37,8 @@
      "Cpp.png",
      "HTML.png",
      "Java.png",
-     "mysql.png"
+     "mysql.png",
+     "bootstrap.png"
    ]
 
    tools:string[] = [
@@ -77,5 +78,6 @@
      "putty.png",
      "filezilla.png",
      "cron.png",
-     "aws.png" ];
+     "aws.png",
+     "bootstrap.png" ];
  }
