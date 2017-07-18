@@ -13,8 +13,9 @@ a part of. This project is also a means of learning more about angular/web devel
 1. clone repository
 2. cd to <pathto>/WebResume/saul/public
 3. npm install
-4. ng serve
-5. visit http://localhost:4200
+4. npm install --save bootstrap
+5. ng serve
+6. visit http://localhost:4200
 
 ## Technology
 - [Angular 4](https://cli.angular.io/)
