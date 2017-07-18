@@ -45,12 +45,33 @@ export class ExperiencesComponent {
   exps:Experience[] = [
     { name: "Flair Data Systems", title: "Product Development Intern",
       startDate: "6/5/17", endDate: "8/-/17", location: "Plano, Texas",
-      description: "While at Flair Data Systems I worked on projects that " +
-      "strengthened my skills and exposed me to different technologies. I created " +
-      "technical documentation for multiple projects. I learned about multiple " +
-      "technologies conceptually and then would implelmented each technology into " +
-      "my current project. These technologies included: Zeppelin, Hadoop, Flume, " +
-      "Docker, github, docker hub, AWS, IP tables, and a Raspberry Pi clusters.", image: "flair.png", state: "down" },
+      description: "As a Technology Development Intern at Flair Data Systems I "+
+      "worked on both development and new-product projects. Through these projects "+
+      "I was introduced and familiarized with new technologies. I researched to "+
+      "understand the concept of each tool, and would implemented that tool into "+
+      "my current project. The main operating systems, software tools, and "+
+      "languages that I worked with included: Ubuntu, macOS, Raspberry Pi, "+
+      "Zeppelin, Hadoop, Flume, Docker, GitHub, Docker Hub, Amazon Web Services, "+
+      "IP tables, Bash, and JavaScript. Examples of what I did with these "+
+      "technologies include but are not limited to the following: Configured a "+
+      "Hadoop cluster of 3 nodes. Set up a Flume agent to send data from a source "+
+      "through a channel to a HDFS sink. I wrote Dockerfiles and grouped them "+
+      "with required configuration files in order to build an image. I created "+
+      "a GitHub repository using directories, representing an image, to cleanly "+
+      "store all files required to build an image. I linked each directory to a "+
+      "unique Docker Hub repository so that each image could be built, accessed "+
+      "and run on any machine. In addition to working on projects, I was asked "+
+      "to write technical documentation. Examples of the documentation I wrote "+
+      "include: A step by step instruction guide for installing / configuring "+
+      "different technologies, and two versions of a formatted service set up "+
+      "guide that will be used by Flair Data Systems representatives and "+
+      "customers. These guides included software version information, detailed "+
+      "steps, staged screen shots, and commands that are required to execute, "+
+      "configure, or install software. For greater understanding, documentation "+
+      "included original figures that illustrated: dataflow, program execution, "+
+      "project architecture, and software tool concepts. Both of these guides "+
+      "used a professional template I created that will be used for all future "+
+      "documentation. ", image: "flair.png", state: "down" },
 
     { name: "Student", title: "Social Entrepreurship in Africa",
       startDate: "5/13/17", endDate: "5/30/17", location: "Kigail, Rwanda",
