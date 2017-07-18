@@ -10,12 +10,12 @@ a part of. This project is also a means of learning more about angular/web devel
 
 ## Local launch instructions
 
-1. clone repository
-2. cd to <pathto>/WebResume/saul/public
-3. npm install
-4. npm install --save bootstrap
-5. ng serve
-6. visit http://localhost:4200
+1. clone repository: `git clone https://github.com/brennansaul/WebResume.git`
+2. change to public directory: `cd <path to project>/WebResume/saulWeb/public`
+3. run `npm install`
+4. run `npm install --save bootstrap`
+5. run `ng serve`
+6. visit `http://localhost:4200`
 
 ## Technology
 - [Angular 4](https://cli.angular.io/)
