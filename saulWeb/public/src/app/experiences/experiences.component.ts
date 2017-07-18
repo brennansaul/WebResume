@@ -50,7 +50,7 @@ export class ExperiencesComponent {
       "technical documentation for multiple projects. I learned about multiple " +
       "technologies conceptually and then would implelmented each technology into " +
       "my current project. These technologies included: Zeppelin, Hadoop, Flume, " +
-      "Docker, github, docker hub, AWS, and a Raspberry Pi clusters.", image: "flair.png", state: "down" },
+      "Docker, github, docker hub, AWS, IP tables, and a Raspberry Pi clusters.", image: "flair.png", state: "down" },
 
     { name: "Student", title: "Social Entrepreurship in Africa",
       startDate: "5/13/17", endDate: "5/30/17", location: "Kigail, Rwanda",
