@@ -8,6 +8,14 @@ The goal of WebResume project is to create a website that shares with the visito
 little bit about myself, my skills, my past experiences, and feature projects that I have been
 a part of. This project is also a means of learning more about angular/web development.
 
+## Local launch instructions
+
+1. clone repository
+2. cd to <pathto>/WebResume/saul/public
+3. npm install
+4. ng serve
+5. visit http://localhost:4200
+
 ## Technology
 - [Angular 4](https://cli.angular.io/)
   - Typescript
