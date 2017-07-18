@@ -45,7 +45,12 @@ export class ExperiencesComponent {
   exps:Experience[] = [
     { name: "Flair Data Systems", title: "Product Development Intern",
       startDate: "6/5/17", endDate: "8/-/17", location: "Plano, Texas",
-      description: "...", image: "flair.png", state: "down" },
+      description: "While at Flair Data Systems I worked on projects that " +
+      "strengthened my skills and exposed me to different technologies. I created " +
+      "technical documentation for multiple projects. I learned about multiple " +
+      "technologies conceptually and then would implelmented each technology into " +
+      "my current project. These technologies included: Zeppelin, Hadoop, Flume, " +
+      "Docker, github, docker hub, AWS, and a Raspberry Pi clusters.", image: "flair.png", state: "down" },
 
     { name: "Student", title: "Social Entrepreurship in Africa",
       startDate: "5/13/17", endDate: "5/30/17", location: "Kigail, Rwanda",

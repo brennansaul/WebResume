@@ -9,12 +9,14 @@ import { ExperiencesComponent } from './experiences/experiences.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { HeaderComponent } from './header/header.component';
 import { ProjectComponent } from './projects/project.component';
+import { ResumeComponent } from './resume/resume.component';
 
 const appRoutes: Routes = [
   { path: '', component: WelcomeComponent },
   { path: 'skills', component: SkillsComponent },
   { path: 'experiences', component: ExperiencesComponent },
-  { path: 'projects', component: ProjectComponent }
+  { path: 'projects', component: ProjectComponent },
+  { path: 'resume', component: ResumeComponent}
 ];
 
 @NgModule({
@@ -24,7 +26,8 @@ const appRoutes: Routes = [
     ExperiencesComponent,
     WelcomeComponent,
     HeaderComponent,
-    ProjectComponent
+    ProjectComponent,
+    ResumeComponent
   ],
   imports: [
     BrowserModule,
