@@ -2,6 +2,7 @@
 Author:          [Brennan Saul](brennansaul.info)
 
 Website Launched: July 18, 2017
+
 Project started:  June 13, 2017
 
 ## Purpose
