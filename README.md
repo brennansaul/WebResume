@@ -1,9 +1,11 @@
 # WebResume
 Author:          [Brennan Saul](brennansaul.info)
 
-Website Launched: July 18, 2017
+### Project Milestones:
 
-Project started:  June 13, 2017
+- Version 1.1:      July 20, 2017
+- Website Launched: July 18, 2017 
+- Project started:  June 13, 2017
 
 ## Purpose
 The goal of WebResume project is to create a website that shares with the visitor a 
