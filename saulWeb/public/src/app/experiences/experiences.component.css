@@ -25,11 +25,18 @@ ul.exp_list {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  text-align: left;
+  width: 75%;
+}
+
+.col-md-3 {
+  text-align: center;
+  max-width: 200px;
 }
 
 .exp_img {
-
-  max-width: 150px;
+  max-width: 200px;
+  min-height: 130px;
   width: 100%;
   height: auto;
   margin-left: 10px;
@@ -50,7 +57,7 @@ p {
   border: 3px solid navy;
   width: 90%;
   height: auto;
-  background: rgba(255,255,255,1);
+  background: rgba(255,255,255,.75);
 }
 
 .btn-circle {

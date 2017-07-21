@@ -35,9 +35,11 @@
      "C.png",
      "Cs.png",
      "Cpp.png",
-     "HTML.png",
      "Java.png",
      "mysql.png",
+     "HTML5.png",
+     "javascript.png",
+     "css3.png",
      "bootstrap.png"
    ]
 
@@ -52,7 +54,8 @@
      "putty.png",
      "filezilla.png",
      "cron.png",
-     "aws.png"
+     "aws.png",
+     "trello.png"
    ]
 
    skills:string[] = [
@@ -66,7 +69,9 @@
      "flume.png",
      "git.png",
      "hadoop.png",
-     "HTML.png",
+     "HTML5.png",
+     "javascript.png",
+     "css3.png",
      "Java.png",
      "mac.png",
      "mysql.png",
@@ -79,5 +84,6 @@
      "filezilla.png",
      "cron.png",
      "aws.png",
-     "bootstrap.png" ];
+     "bootstrap.png",
+     "trello.png"];
  }
