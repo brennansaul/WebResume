@@ -16,6 +16,10 @@
   text-align: center;
 }
 
+.row {
+  width: 100%;
+}
+
 .profile_img {
   border-radius: 150px 150px 150px 150px;
   width: 300px;
