@@ -13,24 +13,23 @@
 -->
 
 <div class="container">
-    <h1> Work Experience </h1>
     <ul class="exp_list" *ngFor="let exp of exps">
       <li>
         <div class="experience">
           <div class="row" style="margin-top: 7px; margin-bottom: 7px">
-            <div class="col-md-3"><img class="exp_img" src="assets/images/experiences/{{exp.image}}"></div>
-            <div class="col-md-4" style="padding-top: 25px">
+            <div class="col-xs-3"><img class="exp_img" src="assets/images/experiences/{{exp.image}}"></div>
+            <div class="col-xs-4" style="padding-top: 25px">
               <p><b>{{exp.title}}</b></p>
               <p>{{exp.name}}<p>
               <p>{{exp.startDate}} - {{exp.endDate}}</p>
               <p>{{exp.location}}<p>
             </div>
-            <div class="col-md-5"></div>
+            <div class="col-xs-5"></div>
           </div>
           <div [@showState]="exp.state" class="row" style="margin-bottom: 7px;">
-            <div class="col-md-1"></div>
-            <div class="col-md-10">{{exp.description}}</div>
-            <div class="col-md-1"></div>
+            <div class="col-xs-1"></div>
+            <div class="col-xs-10">{{exp.description}}</div>
+            <div class="col-xs-1"></div>
           </div>
           <div style="text-align: center; padding-bottom: 7px">
             <button type="button" class="btn btn-default btn-circle btn" (click)="onAnimate(exp)"><i class="glyphicon glyphicon-collapse-{{exp.state}}"></i></button>
