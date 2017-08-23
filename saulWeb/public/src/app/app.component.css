@@ -10,22 +10,18 @@
  * Saul     6/23/17   File Created
  * Saul     6/26/17   .page css modified
  */
-@import url('https://fonts.googleapis.com/css?family=Bangers');
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Subrayada|Russo+One|Secular+One|Ubuntu');
 .page {
-  font-family: 'Ubuntu';
-  position: relative;
-  background-image: url("../assets/images/background.png");
-  background-repeat:no-repeat;
-  background-size: 100% 100vh;
-
   width: 100%;
-  min-height: 94vh;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
+  vertical-align: top;
+  height: 100%;
+  font-family: sans-serif;
+  height: 94vh;
+  background-image: url("../assets/images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 /*.footer {

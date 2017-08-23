@@ -19,15 +19,18 @@
 
 /* Styling for header with name and major */
 #me {
+  font-family: "Russo One";
   font-size: 30px;
   text-align: center;
-  background-color: navy;
+  background: rgba(0,0,120, 0.4);
+
 }
 
 /* Styling for the navbar */
 #navbar {
+  font-family: "Russo One";
   width: 100%;
-  background: navy;
+  background: rgba(0,0,120, 0.4);
   max-height: 100%;
 }
 
