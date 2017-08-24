@@ -6,6 +6,8 @@
   margin-right: auto;
   background: rgba(255,255,255,.0);
   font-family: 'Ubuntu';
+  height: 94vh;
+  overflow: auto;
 }
 
 .project {
