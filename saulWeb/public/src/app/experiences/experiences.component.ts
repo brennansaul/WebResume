@@ -52,7 +52,7 @@ export class ExperiencesComponent {
       "my current project. The main operating systems, software tools, and "+
       "languages that I worked with included: Ubuntu, macOS, Raspberry Pi, "+
       "Zeppelin, Hadoop, Flume, Docker, GitHub, Docker Hub, Amazon Web Services, "+
-      "IP tables, Bash, and JavaScript. Examples of what I did with these "+
+      "Bash, and JavaScript. Examples of what I did with these "+
       "technologies include but are not limited to the following: Configured a "+
       "Hadoop cluster of 3 nodes. Set up a Flume agent to send data from a source "+
       "through a channel to a HDFS sink. I wrote Dockerfiles and grouped them "+
@@ -60,12 +60,14 @@ export class ExperiencesComponent {
       "a GitHub repository using directories, representing an image, to cleanly "+
       "store all files required to build an image. I linked each directory to a "+
       "unique Docker Hub repository so that each image could be built, accessed "+
-      "and run on any machine. In addition to working on projects, I was asked "+
+      "and run on any machine. I developed a lab driven learning platfrom that " +
+      "coveres the concepts and capabilities of Docker a well how to use the " +
+      "Docker Engine. In addition to working on projects, I was asked " +
       "to write technical documentation. Examples of the documentation I wrote "+
       "include: A step by step instruction guide for installing / configuring "+
       "different technologies, and two versions of a formatted service set up "+
       "guide that will be used by Flair Data Systems representatives and "+
-      "customers. These guides included software version information, detailed "+
+      "customers. These guides include software version information, detailed "+
       "steps, staged screen shots, and commands that are required to execute, "+
       "configure, or install software. For greater understanding, documentation "+
       "included original figures that illustrated: dataflow, program execution, "+

@@ -15,20 +15,9 @@
 .page {
   width: 100%;
   vertical-align: top;
-  height: 100%;
   font-family: sans-serif;
-  height: 94vh;
+  height: 100vh;
   background-image: url("../assets/images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
-
 }
-
-/*.footer {
-  height: 60px;
-  width: 85%;
-  background-color: darkgray;
-  margin-left: auto;
-  margin-right: auto;
-
-}*/

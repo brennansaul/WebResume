@@ -1,7 +1,7 @@
 .pbucket {
   text-align: center;
   width: 70%;
-  height: 94vh;
+  height: 90vh;
   margin-left: auto;
   margin-right: auto;
 }
@@ -9,5 +9,5 @@
 .pdf {
   margin-top: 10px;
   width: 70%;
-  height: 94vh;
+  height: 100%;
 }
