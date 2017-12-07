@@ -36,10 +36,13 @@
      "Cs.png",
      "Cpp.png",
      "Java.png",
+     "python.png",
      "mysql.png",
      "HTML5.png",
      "javascript.png",
      "css3.png",
+     "socketio.png",
+     "jquery.gif",
      "bootstrap.png"
    ]
 
@@ -72,7 +75,10 @@
      "HTML5.png",
      "javascript.png",
      "css3.png",
+     "socketio.png",
+     "jquery.gif",
      "Java.png",
+     "python.png",
      "mac.png",
      "mysql.png",
      "ubuntu.png",
